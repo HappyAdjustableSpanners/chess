@@ -1,0 +1,336 @@
+<div class="vertical-center">
+<div id="chessboard">
+  <div id="buffer">
+      <!-- Row 1 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece0]="state0" *ngIf="boardLayout[0] != ''" class="piece" src="./assets/{{boardLayout[0]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece1]="state1" *ngIf="boardLayout[1] != ''" class="piece" src="./assets/{{boardLayout[1]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece2]="state2" *ngIf="boardLayout[2] != ''" class="piece" src="./assets/{{boardLayout[2]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece3]="state3" *ngIf="boardLayout[3] != ''" class="piece" src="./assets/{{boardLayout[3]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece4]="state4" *ngIf="boardLayout[4] != ''" class="piece" src="./assets/{{boardLayout[4]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece5]="state5" *ngIf="boardLayout[5] != ''" class="piece" src="./assets/{{boardLayout[5]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece6]="state6" *ngIf="boardLayout[6] != ''" class="piece" src="./assets/{{boardLayout[6]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece7]="state7" *ngIf="boardLayout[7] != ''" class="piece" src="./assets/{{boardLayout[7]}}.png">
+          </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece8]="state8" *ngIf="boardLayout[8] != ''" class="piece" src="./assets/{{boardLayout[8]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece9]="state9" *ngIf="boardLayout[9] != ''" class="piece" src="./assets/{{boardLayout[9]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece10]="state10" *ngIf="boardLayout[10] != ''" class="piece" src="./assets/{{boardLayout[10]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece11]="state11" *ngIf="boardLayout[11] != ''" class="piece" src="./assets/{{boardLayout[11]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece12]="state12" *ngIf="boardLayout[12] != ''" class="piece" src="./assets/{{boardLayout[12]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece13]="state13" *ngIf="boardLayout[13] != ''" class="piece" src="./assets/{{boardLayout[13]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece14]="state14" *ngIf="boardLayout[14] != ''" class="piece" src="./assets/{{boardLayout[14]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece15]="state15" *ngIf="boardLayout[15] != ''" class="piece" src="./assets/{{boardLayout[15]}}.png">
+          </div>
+      </div>
+      <!-- Row 3 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece16]="state16" *ngIf="boardLayout[16] != ''" class="piece" src="./assets/{{boardLayout[16]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece17]="state17" *ngIf="boardLayout[17] != ''" class="piece" src="./assets/{{boardLayout[17]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece18]="state18" *ngIf="boardLayout[18] != ''" class="piece" src="./assets/{{boardLayout[18]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece19]="state19" *ngIf="boardLayout[19] != ''" class="piece" src="./assets/{{boardLayout[19]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece20]="state20" *ngIf="boardLayout[20] != ''" class="piece" src="./assets/{{boardLayout[20]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece21]="state21" *ngIf="boardLayout[21] != ''" class="piece" src="./assets/{{boardLayout[21]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece22]="state22" *ngIf="boardLayout[22] != ''" class="piece" src="./assets/{{boardLayout[22]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece23]="state23" *ngIf="boardLayout[23] != ''" class="piece" src="./assets/{{boardLayout[23]}}.png">
+          </div>
+      </div>
+      <!-- Row 3 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece24]="state24" *ngIf="boardLayout[24] != ''" class="piece" src="./assets/{{boardLayout[24]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece25]="state25" *ngIf="boardLayout[25] != ''" class="piece" src="./assets/{{boardLayout[25]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece26]="state26" *ngIf="boardLayout[26] != ''" class="piece" src="./assets/{{boardLayout[26]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece27]="state27" *ngIf="boardLayout[27] != ''" class="piece" src="./assets/{{boardLayout[27]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece28]="state28" *ngIf="boardLayout[28] != ''" class="piece" src="./assets/{{boardLayout[28]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece29]="state29" *ngIf="boardLayout[29] != ''" class="piece" src="./assets/{{boardLayout[29]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece30]="state30" *ngIf="boardLayout[30] != ''" class="piece" src="./assets/{{boardLayout[30]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece31]="state31" *ngIf="boardLayout[31] != ''" class="piece" src="./assets/{{boardLayout[31]}}.png">
+          </div>
+      </div>
+      <!-- Row 4 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece32]="state32" *ngIf="boardLayout[32] != ''" class="piece" src="./assets/{{boardLayout[32]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece33]="state33" *ngIf="boardLayout[33] != ''" class="piece" src="./assets/{{boardLayout[33]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece34]="state34" *ngIf="boardLayout[34] != ''" class="piece" src="./assets/{{boardLayout[34]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece35]="state35" *ngIf="boardLayout[35] != ''" class="piece" src="./assets/{{boardLayout[35]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece36]="state36" *ngIf="boardLayout[36] != ''" class="piece" src="./assets/{{boardLayout[36]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece37]="state37" *ngIf="boardLayout[37] != ''" class="piece" src="./assets/{{boardLayout[37]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece38]="state38" *ngIf="boardLayout[38] != ''" class="piece" src="./assets/{{boardLayout[38]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece39]="state39" *ngIf="boardLayout[39] != ''" class="piece" src="./assets/{{boardLayout[39]}}.png">
+          </div>
+      </div>
+      <!-- Row 5 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece40]="state40" *ngIf="boardLayout[40] != ''" class="piece" src="./assets/{{boardLayout[40]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece41]="state41" *ngIf="boardLayout[41] != ''" class="piece" src="./assets/{{boardLayout[41]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece42]="state42" *ngIf="boardLayout[42] != ''" class="piece" src="./assets/{{boardLayout[42]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece43]="state43" *ngIf="boardLayout[43] != ''" class="piece" src="./assets/{{boardLayout[43]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece44]="state44" *ngIf="boardLayout[44] != ''" class="piece" src="./assets/{{boardLayout[44]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece45]="state45" *ngIf="boardLayout[45] != ''" class="piece" src="./assets/{{boardLayout[45]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece46]="state46" *ngIf="boardLayout[46] != ''" class="piece" src="./assets/{{boardLayout[46]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece47]="state47" *ngIf="boardLayout[47] != ''" class="piece" src="./assets/{{boardLayout[47]}}.png">
+          </div>
+      </div>
+      <!-- Row 6 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece48]="state48" *ngIf="boardLayout[48] != ''" class="piece" src="./assets/{{boardLayout[48]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece49]="state49" *ngIf="boardLayout[49] != ''" class="piece" src="./assets/{{boardLayout[49]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece50]="state50" *ngIf="boardLayout[50] != ''" class="piece" src="./assets/{{boardLayout[50]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece51]="state51" *ngIf="boardLayout[51] != ''" class="piece" src="./assets/{{boardLayout[51]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece52]="state52" *ngIf="boardLayout[52] != ''" class="piece" src="./assets/{{boardLayout[52]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece53]="state53" *ngIf="boardLayout[53] != ''" class="piece" src="./assets/{{boardLayout[53]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece54]="state54" *ngIf="boardLayout[54] != ''" class="piece" src="./assets/{{boardLayout[54]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece55]="state55" *ngIf="boardLayout[55] != ''" class="piece" src="./assets/{{boardLayout[55]}}.png">
+          </div>
+      </div>
+      <!-- Row 7 -->
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece56]="state56" *ngIf="boardLayout[56] != ''" class="piece" src="./assets/{{boardLayout[56]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece57]="state57" *ngIf="boardLayout[57] != ''" class="piece" src="./assets/{{boardLayout[57]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece58]="state58" *ngIf="boardLayout[58] != ''" class="piece" src="./assets/{{boardLayout[58]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece59]="state59" *ngIf="boardLayout[59] != ''" class="piece" src="./assets/{{boardLayout[59]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece60]="state60" *ngIf="boardLayout[60] != ''" class="piece" src="./assets/{{boardLayout[60]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece61]="state61" *ngIf="boardLayout[61] != ''" class="piece" src="./assets/{{boardLayout[61]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece62]="state62" *ngIf="boardLayout[62] != ''" class="piece" src="./assets/{{boardLayout[62]}}.png">
+          </div>
+      </div>
+      <div class="square">
+          <div class="fill-square">
+            <img [@movePiece63]="state63" *ngIf="boardLayout[63] != ''" class="piece" src="./assets/{{boardLayout[63]}}.png">
+          </div>
+      </div>
+ 
+
+    </div>
+  </div>
+</div>
